@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Newsletter</title>
+</head>
+<body>
+   <header>
+    <h1>shecodes</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Newsletter</a>
+    </nav>
+   </header> 
+   <main>
+    <section>
+        <h2>Newsletter</h2>
+        <form action="#" method="post">
+
+           <div>
+            <label for="name">Full name:</label>
+            <input type="text" id="name" name="name" required>
+           </div>
+<br>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+<br>
+          <div>
+            <label for="age" >Age:</label>
+            <input type="number" id="number" name="number" min="13" max="120">
+          </div>
+<br>
+          <div>
+            <label for="select">How did you hear:</label>
+            <select id="select" name="select">
+            <option value="social media">Social media</option>
+            <option value="friend">Friend</option>
+            <option value="ad">Ad</option>
+            <option value="search">Search</option>
+            </select>
+          </div>
+<br>
+          <div>
+            <label for="select" >Interestes:</label><br>
+            <input type="checkbox" name="Interestes" value="Tech">Tech<br>
+            <input type="checkbox" name="Interestes" value="Health">Health<br>
+            <input type="checkbox" name="Interestes" value="buisness">Buisness<br>
+            <input type="checkbox" name="Interestes" value="entertainment">Entertainment<br>
+          </div>
+<br>
+          <div>
+            <lable for="select">Frequency:</lable><br>
+            <input type="radio" name="Frequency" value="daily" required >Daily<br>
+            <input type="radio" name="Frequency" value="weekly">Weekly<br>
+            <input type="radio" name="Frequency" value="monthly">Monthly<br>
+           
+            </div>
+<br>
+          <div>
+            <label for="comments">Comments:</label>
+            <input type="textarea" name="textarea" row="4">
+          </div>
+<br>
+          <div>
+            <label for="subscribe button" >Subscribe:</label>
+            <input type="submit" name="submit">
+          </div>
+
+        </form>
+    </section>
+
+    <section>
+         <h3>Popular Topics This Week</h3>
+          <table>
+            <tr>
+                <th>Topics</th>
+                <th>Articles</th>
+                <th>Most Popular Day</th>
+            </tr>
+            <tr>
+                <td>AI news</td>
+                <td>10</td>
+                <td>Thursday</td>
+            </tr>
+            <tr>
+                <td>Web Dev</td>
+                <td>4</td>
+                <td>Monday</td>
+            </tr>
+            <tr>
+                <td>Startups</td>
+                <td>14</td>
+                <td>Saturday</td>
+            </tr>
+          </table>
+
+    </section>
+   </main>
+</body>
+<footer>
+    <p>&copy;2026 Newsletter</p>
+</footer>
+</html>
